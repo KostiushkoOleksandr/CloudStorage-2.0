@@ -16,7 +16,7 @@ const Filter = (props) => {
                         undefined 
                         : 
                         (<div className="filter__folder-wrapper">
-                            <p className="filter__folder-title">Folders</p>
+                            <p className="filter__folder-title">Папки</p>
                         </div>)}
         
                 </div>
@@ -26,8 +26,8 @@ const Filter = (props) => {
                     <div className="filter__select-wrapper"> 
         
                         <select className="filter__select" value={filterOptionType} onChange={props.selectedOnChange}>
-                            <option value="date">Last Modified</option>
-                            <option value="name">Name</option>
+                            <option value="date">Останнє оновлення</option>
+                            <option value="name">Назва</option>
                         </select>
                     </div>
         

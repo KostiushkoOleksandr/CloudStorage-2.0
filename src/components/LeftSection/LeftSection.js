@@ -17,18 +17,18 @@ class LeftSection extends React.Component {
                         
                     <img className="add-button__img" src="/images/add-blue.png"/>
 
-                    <h3 className="add-button__title">New</h3>
+                    <h3 className="add-button__title">Створити</h3>
 
                     <div className={this.props.showAddOptions ? "add-button__option-wrapper add-button__option-wrapper--show" : "add-button__option-wrapper"}>
                         <div className="add_button__option__add-folder-wrapper" onClick={this.props.createFolder}>
                             <img className="add_button__option__add-folder-image" src="/images/grey-add-folder.png"/>
-                            <p className="add_button__option__add-folder-title">Folder</p>
+                            <p className="add_button__option__add-folder-title">Створити папку</p>
                         </div>
 
                         <div className="add_button__option__add-folder-wrapper add_button__option__add-folder-wrapper--no-border">
                                     
                             <img className="add_button__option__add-folder-image" src="/images/upload-file-grey.png"/>
-                            <p className="add_button__option__add-folder-title">File Upload</p>
+                            <p className="add_button__option__add-folder-title">Завантажити файл</p>
                             <input className="add_button__option__add-file-input"  ref={this.props.uploadInput} 
                             type="file" multiple={true} onChange={this.props.handleUpload}/>
                                     
@@ -36,7 +36,7 @@ class LeftSection extends React.Component {
 
                         <div className="add_button__option__add-folder-wrapper add_button__option__add-folder-wrapper--no-border">
                             <img className="add_button__option__add-folder-image" src="/images/folder-upload-grey.png"/>
-                            <p className="add_button__option__add-folder-title">Folder Upload</p>
+                            <p className="add_button__option__add-folder-title">Завантажити папку</p>
                         </div>
                     </div>
 

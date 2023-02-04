@@ -27,7 +27,7 @@ const MainSection = React.forwardRef((props, ref) => {
 
                     {(props.quickFiles.length !== 0 && props.parent === "/") ? 
                         <div>
-                            <Spacer title="Quick Access"/>
+                            <Spacer title="Швидкий доступ до файлів"/>
                             <QuickAccess 
                                 fileClick={props.fileClick}
                                 downloadFile={props.downloadFile}/>

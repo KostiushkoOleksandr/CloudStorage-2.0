@@ -4,7 +4,7 @@ import React from "react"
 const StorageWidget = (props) => (
     <div className="storage__wrapper">
                             
-        <h3 className="storage__title">Storage</h3>
+        <h3 className="storage__title">Використано місця</h3>
                             
         <div className="storage__progress__wrapper">
                             
@@ -16,7 +16,7 @@ const StorageWidget = (props) => (
 
         </div>
         
-        <h3 className="storage__subtitle">{bytes(props.storage.total - props.storage.available)} of {bytes(props.storage.total)}</h3>
+        <h3 className="storage__subtitle">{bytes(props.storage.total - props.storage.available)} з {bytes(props.storage.total)}</h3>
     </div>
 )
 

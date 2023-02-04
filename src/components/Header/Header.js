@@ -5,13 +5,13 @@ import uuid from "uuid";
 const Header = (props) => (
     <header className="header">
     
-        <img className="header__image" src="/images/my-drive-icon2.png" onClick={props.goHome}/>
+        <img className="header__image" src="/images/cloud-network.png" onClick={props.goHome}/>
 
         <form className="header__form" onSubmit={props.searchEvent}>
         
             <input className="header__input" onChange={props.searchOnChange} 
                 value={props.search}
-                placeholder="Search" type="text"
+                placeholder="Пошук" type="text"
                 onFocus={props.showSuggested}
                 onBlur={props.hideSuggested}
             />

@@ -17,8 +17,8 @@ const RightSection = (props) => {
             {props.selectedItem.name === "" ? 
             (
             <div className="section__none--wrapper">
-                <img className="section__image" src="/images/edit.svg"/>   
-                <h3 className="section__title">Select a file or folder to view its details</h3>             
+                <img className="section__image" src="/images/empty_state_details.png"/>
+                <h3 className="section__title">Виділіть об'єкт, щоб переглянути відомості.</h3>
             </div>
             )
             :
@@ -30,10 +30,10 @@ const RightSection = (props) => {
                 </div>
     
                 <div className="section-detail__block">
-                    {props.selectedItem.file ? (<RightSectionDetail title="Type" body={props.getFileExtension(props.selectedItem.name)}/>) : (<RightSectionDetail title="Type" body="Folder"/>)}
-                    {props.selectedItem.file ? (<RightSectionDetail first={false} title="Size" body={bytes(props.selectedItem.size)}/>) : undefined}
-                    <RightSectionDetail first={false} title="Created" body={moment(props.selectedItem.date).format("L")}/>
-                    <RightSectionDetail first={false} title="Location" body={props.selectedItem.location} />
+                    {props.selectedItem.file ? (<RightSectionDetail title="Тип:" body={props.getFileExtension(props.selectedItem.name)}/>) : (<RightSectionDetail title="Тип:" body="Folder"/>)}
+                    {props.selectedItem.file ? (<RightSectionDetail first={false} title="Розмір:" body={bytes(props.selectedItem.size)}/>) : undefined}
+                    <RightSectionDetail first={false} title="Створено:" body={moment(props.selectedItem.date).format("L")}/>
+                    <RightSectionDetail first={false} title="Місце:" body={props.selectedItem.location} />
                     {props.selectedItem.isVideo ? 
                         <RightSectionDetail first={false} title="Optimized" body={(props.selectedItem.transcoded || props.state.optimizing_finished) ? "True" : "False"} /> :
                         undefined}
