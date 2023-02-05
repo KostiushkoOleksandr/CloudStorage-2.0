@@ -43,7 +43,7 @@ class QuickAccessItemContainer extends React.Component {
 
         await this.setState(() => ({
             ...this.state,
-            iimage: "/images/file-svg.svg",
+            image: "/images/file-svg.svg",
             imageClassname: "quickaccess__item__image"
         }))
     

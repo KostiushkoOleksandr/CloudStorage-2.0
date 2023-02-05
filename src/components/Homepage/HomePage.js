@@ -4,7 +4,7 @@ import MainSection from ".././MainSection";
 import Uploader from ".././Uploader";
 import SettingsMenu from ".././SettingsMenu";
 import React from "react";
-import PhotoViewer from "../PhotoViewer"
+import PhotoViewer from "../PhotoViewer";
 
 const HomePage = (props) => (
 
@@ -18,7 +18,6 @@ const HomePage = (props) => (
             <SettingsMenu />
             {props.photoID.length === 0 ? undefined :
             <PhotoViewer />}
-               
         </div>
     </div>
 

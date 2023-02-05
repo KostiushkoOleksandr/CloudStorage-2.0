@@ -5,13 +5,13 @@ import uuid from "uuid";
 const Header = (props) => (
     <header className="header">
     
-        <img className="header__image" src="/images/cloud-network.png" onClick={props.goHome}/>
+        <img className="header__image" src="/images/cloud-storage.png" onClick={props.goHome}/>
 
         <form className="header__form" onSubmit={props.searchEvent}>
         
             <input className="header__input" onChange={props.searchOnChange} 
                 value={props.search}
-                placeholder="Пошук" type="text"
+                placeholder="Пошук на диску" type="text"
                 onFocus={props.showSuggested}
                 onBlur={props.hideSuggested}
             />
@@ -31,8 +31,11 @@ const Header = (props) => (
             </div>
 
         </form>
-
+        <div>
             <img className="header__setting" onClick={props.showSettings} src="/images/gear_icon.png" />
+            <img className="header__setting" src="/images/user.png" alt="avatar"/>
+        </div>
+
     </header>
 )
 

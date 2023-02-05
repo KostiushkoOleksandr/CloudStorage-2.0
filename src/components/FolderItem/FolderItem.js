@@ -17,7 +17,7 @@ const FolderItem = (props) => {
                 onContextMenu={(e) => props.getContextMenu(e)}>
                     
                     <div className="file__item__listview__title__wrapper file__item__listview__title__wrapper--folder">
-                        <img className="file__image__listview" src="/images/folder-svg.svg"/>
+                        <img className="file__image__listview" src="/images/folder-svg-purple.svg"/>
                         <h5 className={props._id !== props.selected ? "file__title__listview file__title__listview--no-max" : "file__title__listview file__title__listview--no-max file__title--selected"}>{props.name}</h5>
                     </div>
                     <h5 className={props._id !== props.selected ? "file__title__listview" : "file__title__listview file__title--selected"}>{moment(props.createdAt).format("L")}</h5>
@@ -35,7 +35,7 @@ const FolderItem = (props) => {
                 onClick={() => props.folderClick(props._id, props.name)} 
                 onContextMenu={(e) => props.getContextMenu(e)}>
 
-            <img className="folder__image" src="/images/folder-svg.svg"/>
+            <img className="folder__image" src="/images/folder-svg-purple.svg"/>
             <h4 className={props._id !== props.selected ? "folder__title" : "folder__title folder__title--selected"}>{props.name}</h4>
 
             {(props.rightSelected === props._id && props._id === props.selected) ? 

@@ -160,15 +160,15 @@ const SettingsMenu = (props) => (
 
             </div>
 
-        
+
         </div>
 
 
-        
+
 
     </div>
 
-    
+
 )
 
 export default SettingsMenu

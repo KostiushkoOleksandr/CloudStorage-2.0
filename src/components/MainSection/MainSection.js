@@ -64,10 +64,7 @@ const MainSection = React.forwardRef((props, ref) => {
                 <RightSection />
             
             </div>
-
         </div>
-
-
 )
 
 })

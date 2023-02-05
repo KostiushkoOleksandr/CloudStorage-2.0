@@ -24,7 +24,7 @@ const DataForm = (props) => (
                 </div>)}
         </div>
     
-        {props.files.length !== 0 ? <Spacer title="Files"/> : undefined}
+        {props.files.length !== 0 ? <Spacer title="Файли"/> : undefined}
         
         <div>
         
