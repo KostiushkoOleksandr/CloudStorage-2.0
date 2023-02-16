@@ -1,6 +1,9 @@
 import SpinnerLogin from ".././SpinnerLogin";
 import React from "react";
 import LoginHeader from "../LoginHeader";
+import Features from "../Features";
+import Footer from "../Footer";
+import Gallery from "../Gallery";
 
 const LoginPage = (props) => {
 
@@ -32,8 +35,22 @@ const LoginPage = (props) => {
                 <div>
                     <div className="box-layout">
                         <div className="box-layout__box">
-                            <img className='login-icon' src="/images/cloud-storage.png" alt="image"/>
-                            <h1 className="box-layout__title">Cloud Storage</h1>
+                            <div className='logo-icon-form'>
+                                <img className='login-icon' src="/images/logo-cloud.png" alt="image"/>
+                            </div>
+                            <div className='login-text'>
+                                <h1 className='text'>
+                                    <span className='span-text'>
+                                        Вітаємо! Дуже раді вас бачити знову!
+                                    </span>
+                                </h1>
+                                <p className='sub-text'>
+                                    <span className='sub-text-title'>
+                                        Увійдіть в обліковий запис, щоб переглянути свої хмарні дані.
+                                    </span>
+                                </p>
+                            </div>
+                            {/*<h1 className="box-layout__title">Cloud Storage</h1>*/}
                             <form onSubmit={props.login}>
                                 <input className="box-layout__input" placeholder="Пошта" type="text"
                                        onChange={props.emailOnChange} value={props.state.email} ref={(ref) => {
@@ -72,7 +89,9 @@ const LoginPage = (props) => {
                 </div>
 
             }
-
+            <Features />
+            <Gallery />
+            <Footer />
         </div>
 
     )

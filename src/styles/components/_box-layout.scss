@@ -1,5 +1,5 @@
 .box-layout {
-    background: url('https://www.jotform.com/blog/wp-content/uploads/2020/01/What-is-personal-cloud-storage-07-700x544.png') no-repeat left fixed;
+    background: url('https://www.jotform.com/blog/wp-content/uploads/2020/01/What-is-personal-cloud-storage-07-700x544.png') no-repeat left;
     /*background: white;*/
     height: 100vh;
     width: 100vw;
@@ -9,7 +9,7 @@
     justify-content: right;
     padding: 300px;
     align-items: center;
-    background-color: #D6EBFC;
+    background-color: #fff;
     
     @media screen and (max-width: 950px) {
         justify-content: center;
@@ -24,7 +24,7 @@
     width: 40rem;
     padding: 3.2rem 1.6rem 1.2rem 1.6rem;
     border: 0.5px;
-    border-style: groove;
+    /*border-style: groove;*/
     display: flex;
     flex-direction: column;
 
@@ -44,7 +44,8 @@
 
 .box-layout__input {
     border: 1px solid #cacccd;
-    border-radius: $small-border;
+    /*border-radius: $small-border;*/
+    border-radius: 12px;
     height: 43px;
     font-size: $font-size-large;
     font-weight: 300;
@@ -52,6 +53,7 @@
     margin: 0 0 $s-size 0;
     width: -webkit-fill-available;
 }
+
 
 .box-layout--button {
     width: -webkit-fill-available;

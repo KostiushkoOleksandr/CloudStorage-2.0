@@ -5,7 +5,7 @@ import uuid from "uuid";
 const Header = (props) => (
     <header className="header">
     
-        <img className="header__image" src="/images/cloud-storage.png" onClick={props.goHome}/>
+        <img className="header__image" src="/images/logo.png" onClick={props.goHome}/>
 
         <form className="header__form" onSubmit={props.searchEvent}>
         

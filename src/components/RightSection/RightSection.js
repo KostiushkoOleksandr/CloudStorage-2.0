@@ -18,10 +18,12 @@ const RightSection = (props) => {
             (
             <div className="section__none--wrapper">
                 <img className="section__image" src="/images/empty_state_details.png"/>
-                <h3 className="section__title">Виділіть об'єкт, щоб переглянути відомості.</h3>
+                <h4 className="section__title">Виділіть об'єкт, щоб переглянути відомості.</h4>
             </div>
             )
+
             :
+
             (
             <div className="section-detail-wrapper">
                 <div className="section__title-wrapper">
