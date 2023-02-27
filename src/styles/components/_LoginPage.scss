@@ -47,7 +47,7 @@
     font-weight: 700;
     line-height: 1.18;
     letter-spacing: -2px;
-    color: #1F436F;
+    color: #fff;
     text-align: center;
     padding: 50px;
 }
@@ -149,3 +149,67 @@
     width: 300px;
     margin-bottom: 100px;
 }
+
+.benefits-card {
+    background-color: #fff;
+    border-radius: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    text-align: center;
+    min-width: 367px;
+    padding: 48px 24px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 100px;
+}
+
+.benefits-card > img {
+    margin: auto;
+    margin-bottom: 32px;
+    margin-top: 0;
+}
+
+.benefits-card h2 {
+    line-height: 1.17;
+    letter-spacing: -.5px;
+    color: #222e3a;
+    margin-bottom: 16px;
+}
+
+.benefits-card p {
+    line-height: 1.44;
+    letter-spacing: -.2px;
+    color: rgba(34,46,58,.75);
+}
+
+.benefits-cards-inner {
+    position: relative;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow-x: visible;
+    will-change: transform;
+    padding-bottom: 8px;
+    display: flex;
+}
+
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-benefits-cards {
+    /*position: relative;
+    overflow-x: visible;
+    margin-bottom: 96px;*/
+}
+

@@ -1,4 +1,5 @@
 import React from 'react';
+import Strengths from "../Strengths";
 
 const Features = () => {
     return (
@@ -10,7 +11,7 @@ const Features = () => {
                 <div className='details-container'>
                     <div className='details'>
                 <span className='details-icon'>
-                    <img width="44" height="38" src="https://surfshark.com/wp-content/themes/surfshark/assets/img/home/icon-no-logs.png" alt=""/>
+                    <img width="44" height="38" src="https://surfshark.com/wp-content/themes/surfshark/assets/img/home/icon-customer-support.png" alt=""/>
                 </span>
                         <span className='details-text'>
                     Завантаження файлів
@@ -18,7 +19,7 @@ const Features = () => {
                     </div>
                     <div className='details'>
                 <span className='details-icon'>
-                    <img width="44" height="38" src="https://surfshark.com/wp-content/themes/surfshark/assets/img/home/icon-no-logs.png" alt=""/>
+                    <img width="44" height="38" src="https://surfshark.com/wp-content/themes/surfshark/assets/img/home/icon-customer-support.png" alt=""/>
                 </span>
                         <span className='details-text'>
                     Скачування файлів
@@ -26,7 +27,7 @@ const Features = () => {
                     </div>
                     <div className='details'>
                 <span className='details-icon'>
-                    <img width="44" height="38" src="https://surfshark.com/wp-content/themes/surfshark/assets/img/home/icon-no-logs.png" alt=""/>
+                    <img width="44" height="38" src="https://surfshark.com/wp-content/themes/surfshark/assets/img/home/icon-customer-support.png" alt=""/>
                 </span>
                         <span className='details-text'>
                     Спільний доступ до файлів
@@ -34,7 +35,7 @@ const Features = () => {
                     </div>
                     <div className='details'>
                 <span className='details-icon'>
-                    <img width="44" height="38" src="https://surfshark.com/wp-content/themes/surfshark/assets/img/home/icon-no-logs.png" alt=""/>
+                    <img width="44" height="38" src="https://surfshark.com/wp-content/themes/surfshark/assets/img/home/icon-customer-support.png" alt=""/>
                 </span>
                         <span className='details-text'>
                     Перегляд фотографій
@@ -42,7 +43,7 @@ const Features = () => {
                     </div>
                     <div className='details'>
                 <span className='details-icon'>
-                    <img width="44" height="38" src="https://surfshark.com/wp-content/themes/surfshark/assets/img/home/icon-no-logs.png" alt=""/>
+                    <img width="44" height="38" src="https://surfshark.com/wp-content/themes/surfshark/assets/img/home/icon-customer-support.png" alt=""/>
                 </span>
                         <span className='details-text'>
                     Перегляд відео
@@ -50,7 +51,7 @@ const Features = () => {
                     </div>
                     <div className='details'>
                 <span className='details-icon'>
-                    <img width="44" height="38" src="https://surfshark.com/wp-content/themes/surfshark/assets/img/home/icon-no-logs.png" alt=""/>
+                    <img width="44" height="38" src="https://surfshark.com/wp-content/themes/surfshark/assets/img/home/icon-customer-support.png" alt=""/>
                 </span>
                         <span className='details-text'>
                     Посилання для одноразового завантаження
@@ -58,7 +59,7 @@ const Features = () => {
                     </div>
                     <div className='details'>
                 <span className='details-icon'>
-                    <img width="44" height="38" src="https://surfshark.com/wp-content/themes/surfshark/assets/img/home/icon-no-logs.png" alt=""/>
+                    <img width="44" height="38" src="https://surfshark.com/wp-content/themes/surfshark/assets/img/home/icon-customer-support.png" alt=""/>
                 </span>
                         <span className='details-text'>
                     Переміщення папок/файлів
@@ -66,7 +67,7 @@ const Features = () => {
                     </div>
                     <div className='details'>
                 <span className='details-icon'>
-                    <img width="44" height="38" src="https://surfshark.com/wp-content/themes/surfshark/assets/img/home/icon-no-logs.png" alt=""/>
+                    <img width="44" height="38" src="https://surfshark.com/wp-content/themes/surfshark/assets/img/home/icon-customer-support.png" alt=""/>
                 </span>
                         <span className='details-text'>
                     Мобільна підтримка
@@ -74,7 +75,7 @@ const Features = () => {
                     </div>
                     <div className='details'>
                 <span className='details-icon'>
-                    <img width="44" height="38" src="https://surfshark.com/wp-content/themes/surfshark/assets/img/home/icon-no-logs.png" alt=""/>
+                    <img width="44" height="38" src="https://surfshark.com/wp-content/themes/surfshark/assets/img/home/icon-customer-support.png" alt=""/>
                 </span>
                         <span className='details-text'>
                     Параметри пошуку/фільтрації
@@ -82,7 +83,7 @@ const Features = () => {
                     </div>
                     <div className='details'>
                 <span className='details-icon'>
-                    <img width="44" height="38" src="https://surfshark.com/wp-content/themes/surfshark/assets/img/home/icon-no-logs.png" alt=""/>
+                    <img width="44" height="38" src="https://surfshark.com/wp-content/themes/surfshark/assets/img/home/icon-customer-support.png" alt=""/>
                 </span>
                         <span className='details-text'>
                     Токени доступу/оновлення
@@ -90,7 +91,7 @@ const Features = () => {
                     </div>
                     <div className='details'>
                 <span className='details-icon'>
-                    <img width="44" height="38" src="https://surfshark.com/wp-content/themes/surfshark/assets/img/home/icon-no-logs.png" alt=""/>
+                    <img width="44" height="38" src="https://surfshark.com/wp-content/themes/surfshark/assets/img/home/icon-customer-support.png" alt=""/>
                 </span>
                         <span className='details-text'>
                     Шифрування AES256
@@ -98,7 +99,7 @@ const Features = () => {
                     </div>
                     <div className='details'>
                 <span className='details-icon'>
-                    <img width="44" height="38" src="https://surfshark.com/wp-content/themes/surfshark/assets/img/home/icon-no-logs.png" alt=""/>
+                    <img width="44" height="38" src="https://surfshark.com/wp-content/themes/surfshark/assets/img/home/icon-customer-support.png" alt=""/>
                 </span>
                         <span className='details-text'>
                     Підтримка декількох БД
@@ -106,6 +107,7 @@ const Features = () => {
                     </div>
                 </div>
             </div>
+            <Strengths />
         </div>
     );
 };

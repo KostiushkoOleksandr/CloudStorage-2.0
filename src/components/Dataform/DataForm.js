@@ -12,7 +12,9 @@ const DataForm = (props) => (
             {props.folders.length === 0 ? 
                     
                 (undefined)
-                : 
+
+                :
+
                 (<div className="dataform">
                     {props.folders.map((folder) => 
                         (<FolderItem 

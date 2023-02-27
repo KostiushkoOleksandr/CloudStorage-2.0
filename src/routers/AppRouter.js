@@ -6,7 +6,7 @@ import HomePage from "../components/Homepage"
 import PrivateRoute from "./PrivateRoute";
 import PublicRoute from "./PublicRoute";
 import DownloadPage from "../components/DownloadPage";
-import uuid from "uuid";
+import uuid from "uuid"
 
 export const history = createHistory()
 

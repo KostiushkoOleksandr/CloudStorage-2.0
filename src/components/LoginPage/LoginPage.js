@@ -3,7 +3,6 @@ import React from "react";
 import LoginHeader from "../LoginHeader";
 import Features from "../Features";
 import Footer from "../Footer";
-import Gallery from "../Gallery";
 
 const LoginPage = (props) => {
 
@@ -90,7 +89,6 @@ const LoginPage = (props) => {
 
             }
             <Features />
-            <Gallery />
             <Footer />
         </div>
 
