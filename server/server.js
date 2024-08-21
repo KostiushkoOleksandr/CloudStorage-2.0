@@ -37,10 +37,7 @@ if (process.env.NODE_ENV === 'production') {
 
 server = http.createServer(app);
 
-
-
 require("../src/db/mongoose")
-
 
 app.use(helmet())
 app.use(compression());
@@ -54,7 +51,6 @@ app.use(busboy({
 }));
 
 app.use(userRouter, fileRouter, folderRouter, storageRouter);
-
 
 const nodeMode = process.env.NODE_ENV ? "Production" : "Development/Testing";
 
@@ -75,9 +71,3 @@ if (process.env.NODE_ENV === 'production') {
 
     module.exports = server; 
 }
-
-
-
-
-
-
