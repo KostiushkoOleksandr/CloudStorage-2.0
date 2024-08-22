@@ -46,5 +46,4 @@ const createIndexes = async() => {
     process.exit();
 
 }
-
 createIndexes();
