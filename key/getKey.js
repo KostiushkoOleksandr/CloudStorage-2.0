@@ -26,5 +26,4 @@ const getKey = async() => {
         env.key = password;
     }
 }
-
 module.exports = getKey;
